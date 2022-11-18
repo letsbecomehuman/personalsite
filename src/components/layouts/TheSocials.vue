@@ -3,21 +3,16 @@
     <div class="flex gap-1">
       <SocialIcon
         title="Github"
-        link="https://github.com/mightykillrr"
+        link="https://github.com/letsbecomehuman"
         icon="ant-design:github-filled"
       />
       <SocialIcon
         title="Twitter"
-        link="https://twitter.com/mightykillrr"
+        link="https://twitter.com/0x_forest"
         icon="ant-design:twitter-outlined"
       />
-      <SocialIcon
-        title="Instagram"
-        link="https://www.instagram.com/aniketkotal/"
-        icon="ant-design:instagram-outlined"
-      />
     </div>
-    <ActionButton link="mailto:aniket1010104@gmail.com">Email Me</ActionButton>
+    <ActionButton link="mailto:mikesynan@gmail.com">Email Me</ActionButton>
   </div>
 </template>
 

@@ -25,13 +25,13 @@ module.exports = {
       link_border_hover: "rgb(99,102,241, 0.4)",
       link_border: "#6c6c6c",
       link: "#d9d9d9",
-      background: "#111111",
+      background: "#030303",
       selectionBack: "rgba(40,41,96)",
     },
     fontFamily: {
-      logo: "Southam Demo",
-      theme: ["MonoLisa", "Monaco", "Source Code Pro"],
-      theme_bold: ["MonoLisaBold", "Monaco", "Source Code Pro"],
+      logo: "Work Sans",
+      theme: ["Work Sans", "Metropolis Regular", "Source Code Pro"],
+      theme_bold: ["Work Sans Bold", "Metropolis Bold", "Source Code Pro"],
     },
     screens: {
       sm: "640px",

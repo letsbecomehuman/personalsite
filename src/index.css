@@ -5,32 +5,33 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "MonoLisa";
-  src: url("./assets/fonts/MonoLisa-Regular.woff2");
+  font-family: "Metropolis Regular";
+  src: url("./assets/fonts/Metropolis-Regular.woff2");
 }
 
 @font-face {
-  font-family: "MonoLisaBold";
-  src: url("./assets/fonts/MonoLisa-Bold.woff2");
+  font-family: "Metropolis Bold";
+  src: url("./assets/fonts/Metropolis-Bold.woff2");
 }
 
 @font-face {
-  font-family: "Southam Demo";
-  src: url("./assets/fonts/Southam Demo.otf");
+  font-family: "Work Sans";
+  src: url("./assets/fonts/WorkSans-Regular.woff2");
 }
 
+
 @font-face {
-  font-family: "Monaco";
-  src: url("./assets/fonts/Monaco.woff");
+  font-family: "Work Sans Bold";
+  src: url("./assets/fonts/WorkSans-Bold.woff2");
 }
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.2s ease;
+  transition: opacity 0.-5s ease;
 }
 
 .fade-enter-active {
-  transition-delay: 0.2s;
+  transition-delay: 0.05s;
 }
 
 .fade-enter-from,
@@ -43,5 +44,27 @@ body {
 }
 
 div > .router-link-active {
-  @apply bg-btn_back text-btn_text pb-2 rounded-md;
+  @apply border-b-2;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.-5s ease;
+}
+
+.fade-enter-active {
+  transition-delay: 0.05s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+body {
+  @apply bg-background text-p_text font-theme selection:bg-selectionBack;
+}
+
+div > .router-link-active {
+  @apply border-b-2;
 }

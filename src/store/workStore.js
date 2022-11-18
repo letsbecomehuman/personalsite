@@ -5,11 +5,11 @@ export const useWorkStore = defineStore("workStore", {
     works: [
       {
         id: 1,
-        name: "Trileotech",
-        position: "Jr. Frontend Developer",
-        from: "2022",
+        name: "Kawakami",
+        position: "Project Manager",
+        from: "2021",
         to: "Cur.",
-        link: "https://trileotech.com/",
+        link: "https://kawakami.io/",
       },
     ],
   }),
