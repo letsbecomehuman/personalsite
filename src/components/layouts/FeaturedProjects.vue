@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col gap-2 lg:gap-4">
-    <h3 class="font-theme_bold text-2xl text-head_text">Featured Projects</h3>
+    <h2 class="text-head_text sm:text-xl md:text-3xl md:leading-normal slg:text-4xl slg:leading-relaxed font-theme_bold text-head_
+    text font-theme_bold text-2xl">Featured Projects</h2>
     <p>Here are some of the projects that I'm proud of.</p>
     <div
       class="grid grid-cols-1 slg:grid-cols-2 gap-7 sm:gap-6 pt-8 mx-auto sm:w-5/6 slg:w-full"

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-8 tracking-wide">
+  <div class="flex flex-col gap-8 tracking-wide pt-40">
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose "
     >

@@ -34,7 +34,7 @@ module.exports = {
       theme_bold: ["Work Sans Bold", "Metropolis Bold", "Source Code Pro"],
     },
     screens: {
-      sm: "640px",
+      sm: { "max": "767px"},
       md: "768px",
       slg: "978px",
       lg: "1024px",
