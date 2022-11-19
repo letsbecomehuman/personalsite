@@ -28,15 +28,15 @@
       <h3 class="font-theme_bold text-head_text text-3xl">Work</h3>
       <div class="flex flex-col gap-8 py-4">
         <a
-          class="flex flex-col gap-1 sm:flex-row flex-nowrap justify-between items-start sm:gap-6"
+          class="flex gap-1 flex-row sm:flex-col flex-nowrap justify-between items-start gap-6"
           v-for="work in works"
           :key="work.id"
           :href="work.link"
         >
           <span class="font-theme_bold text-head_text">{{ work.name }}</span>
           <span class="flex-[1_1_auto]"></span>
-          <span class="sm:text-right text-sm sm:text-base">{{
-            work.position
+          <span class="sm:text-right text-sm sm:text-base pr-2">{{
+            work.position 
           }}</span>
           <span class="text-sm sm:text-base"
             >{{ work.from }} - {{ work.to }}</span
