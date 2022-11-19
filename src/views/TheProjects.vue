@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col gap-16 slg:gap-24 mt-40 sm:mt-20">
-    <div class="flex flex-col gap-5 slg:gap-12">
+    <div class="flex flex-col gap-8">
       <h1
         class="text-2xl sm:text-3xl md:text-4xl slg:text-5xl font-theme_bold text-head_text"
       >
         Projects<span class="text-link_text_hover">.</span>
       </h1>
-      <p class="text-base slg:text-lg lg:text-xl">
+      <p class="text-lg md:text-base leading-relaxed slg:text-lg lg:leading-loose ">
         Here are projects I've worked on in my past year of web development and project management.
       </p>
     </div>

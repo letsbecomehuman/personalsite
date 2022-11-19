@@ -5,9 +5,7 @@
       >
         About<span class="text-link_text_hover">.</span>
       </h1>
-    <p
-      class="text-lg md:text-base leading-relaxed slg:text-lg lg:leading-loose "
-    >
+    <p class="text-lg md:text-base leading-relaxed slg:text-lg lg:leading-loose ">
       I'm Michael Synan, Project Manager at Kawakami. I'm a long time linux user,
       philosophy nerd, and opensource advocate. I've done data analysis work in Python and R, 
       as well as frontend work with various javascript frameworks. I'm passionate about
