@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col items-center gap-12">
+  <div class="flex flex-col items-center gap-8">
     <img :src="image" :alt="name" class="rounded-lg w-full" />
-    <div class="flex flex-col w-full items-left gap-6 ">
+    <div class="flex flex-col w-full items-left gap-4 ">
       <span class="font-theme_bold text-2xl text-head_text">{{ name }}</span>
       <p class="text-sm lg:text-lg">{{ description }}</p>
       <ActionButton class="w-fit" :link="link">

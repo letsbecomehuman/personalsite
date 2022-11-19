@@ -1,7 +1,12 @@
 <template>
   <div class="flex flex-col gap-8 tracking-wide pt-40 sm:pt-20">
+    <h1
+        class="text-2xl sm:text-3xl md:text-4xl slg:text-5xl font-theme_bold text-head_text"
+      >
+        About<span class="text-link_text_hover">.</span>
+      </h1>
     <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose "
+      class="text-lg md:text-base leading-relaxed slg:text-lg lg:leading-loose "
     >
       I'm Michael Synan, Project Manager at Kawakami. I'm a long time linux user,
       philosophy nerd, and opensource advocate. I've done data analysis work in Python and R, 
@@ -9,7 +14,7 @@
       crypto, decentralization and community. 
     </p>
     <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
+      class="text-lg md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
       You can find some of my work on my
       <LinkBtn link="https://github.com/letsbecomehuman">Github</LinkBtn> or on my
@@ -17,29 +22,13 @@
     </p>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
     <div class="flex flex-col gap-5">
-      <h3 class="font-theme_bold text-head_text text-3xl">Work</h3>
-      <div class="flex flex-col gap-8 py-4">
-        <a
-          class="flex gap-1 flex-row sm:flex-col flex-nowrap justify-between items-start gap-6"
-          v-for="work in works"
-          :key="work.id"
-          :href="work.link"
-        >
-          <span class="font-theme_bold text-head_text">{{ work.name }}</span>
-          <span class="flex-[1_1_auto]"></span>
-          <span class="sm:text-right text-sm sm:text-base pr-2">{{
-            work.position 
-          }}</span>
-          <span class="text-sm sm:text-base"
-            >{{ work.from }} - {{ work.to }}</span
-          >
-        </a>
-      </div>
+<TheSocials />
     </div>
   </div>
 </template>
 <script>
 import { useWorkStore } from "../store/workStore";
+import TheSocials from "../components/layouts/TheSocials.vue";
 
 export default {
   setup() {
@@ -48,5 +37,6 @@ export default {
 
     return { works };
   },
+  components: { TheSocials }
 };
 </script>

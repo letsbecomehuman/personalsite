@@ -6,12 +6,12 @@
       >
         Projects<span class="text-link_text_hover">.</span>
       </h1>
-      <p class="text-base slg:text-lg">
+      <p class="text-base slg:text-lg lg:text-xl">
         Here are projects I've worked on in my past year of web development and project management.
       </p>
     </div>
     <hr class="bg-squgily bg-repeat border-0 h-[1px] opacity-25" />
-    <div class="flex flex-col items-center justify-center gap-28">
+    <div class="flex flex-col items-center justify-center gap-28 w-full mx-auto">
       <MainProjectItem
         v-for="proj in projects"
         :key="proj.id"

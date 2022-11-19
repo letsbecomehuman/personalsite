@@ -9,7 +9,7 @@
       :alt="name"
     />
     <div class="flex flex-col justify-between gap-4 slg:gap-5">
-      <span class="font-theme_bold text-lg text-head_text slg:text-xl">{{
+      <span class=" font-theme_bold text-lg text-head_text slg:text-xl">{{
         name
       }}</span>
       <p class="text-sm md:text-base">

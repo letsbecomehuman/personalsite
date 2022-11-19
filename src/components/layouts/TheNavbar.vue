@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="px-2 py-2 flex justify-between fixed w-full top-0 sm:px-4 lg:py-2 max-h-100 h-auto grow-0 align-top flex-start"
+    class="px-1 py-1 flex justify-between fixed w-full top-0 sm:px-2 lg:py-1 max-h-100 h-auto grow-0 align-top flex-start"
   >
     <div class="h-[1px] top-0 absolute left-0 w-full lg:h-1 max-h-100 h-auto grow-0 align-top"></div>
     <router-link
