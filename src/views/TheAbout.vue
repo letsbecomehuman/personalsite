@@ -11,14 +11,6 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I'm currently working on the
-      <LinkBtn link="https://nft.kawakami.io">Kawakami Generation Zero</LinkBtn
-      > NFT collection, where I work as the Project Manager. We have a play to earn game in development, as well as several other
-      NFT-based utilities.
-    </p>
-    <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
       You can find some of my work on my
       <LinkBtn link="https://github.com/letsbecomehuman">Github</LinkBtn> or on my
       <LinkBtn link="/">Portfolio</LinkBtn> page.
