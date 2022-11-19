@@ -33,7 +33,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
   scrollBehavior(to) {
     if (to) return { top: 0, behavior: "smooth" };

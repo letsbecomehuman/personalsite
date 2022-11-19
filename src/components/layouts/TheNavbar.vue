@@ -10,19 +10,19 @@
     >
     <div class="flex text-sm items-center gap-1 sm:gap-4 align-top">
       <router-link
-        class="hover:border-b-2 font-theme_bold px-0 py-0 pb-0 mx-3 transition-all sm:px-0 sm:py-0 sm:text-base uppercase"
+        class="hover:border-b-2 font-theme_bold px-0 py-0 pb-0 mx-3 transition-all sm:px-0 sm:py-0 sm:mx-1 sm:text-base uppercase"
         to="/"
       >
         Home
       </router-link>
       <router-link
-        class="hover:border-b-2 font-theme_bold px-0 py-0 pb-0 mx-3 transition-all sm:px-0 sm:py-0 md:text-base uppercase"
+        class="hover:border-b-2 font-theme_bold px-0 py-0 pb-0 mx-3 transition-all sm:px-0 sm:py-0 sm:mx-1 md:text-base uppercase"
         to="/about"
       >
         About
       </router-link>
       <router-link
-        class="hover:border-b-2 font-theme_bold px-0 py-0 pb-0 mx-3 transition-all sm:px0 sm:py-0 md:text-base uppercase"
+        class="hover:border-b-2 font-theme_bold px-0 py-0 pb-0 mx-3 transition-all sm:px0 sm:py-0 sm:mx-1 md:text-base uppercase"
         to="/projects"
       >
         Projects
