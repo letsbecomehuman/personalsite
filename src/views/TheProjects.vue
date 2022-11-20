@@ -9,8 +9,8 @@
       <p class="text-lg md:text-base leading-relaxed slg:text-lg lg:leading-loose ">
         Here are projects I've worked on in my past year of web development and project management.
       </p>
-    </div>
-    <hr class="bg-squgily bg-repeat border-0 h-[1px] opacity-25" />
+    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
+  </div>
     <div class="flex flex-col items-center justify-center gap-28 w-full mx-auto">
       <MainProjectItem
         v-for="proj in projects"
