@@ -45,9 +45,3 @@ const navigation = [
 
 ]
 </script>
-
-<style>
-.active-link {
-
-}
-</style>
