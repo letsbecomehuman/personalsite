@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.active-link, .exact-active-link {
+  @apply
+  border-b-2 border-link_border_hover text-link_text_hover transition-colors text-link rounded-none
+}
+
 @font-face {
   font-family: "Metropolis Regular";
   src: url("./assets/fonts/Metropolis-Regular.woff2");

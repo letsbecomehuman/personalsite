@@ -9,32 +9,39 @@ const routes = [
     path: "/",
     name: "main",
     component: TheHome,
+
   },
   {
     path: "/home",
     name: "home",
     redirect: "/",
+
   },
   {
     path: "/about",
     name: "about",
     component: TheAbout,
+
   },
   {
     path: "/projects",
     name: "projects",
     component: TheProjects,
+
   },
   {
     path: "/:pathMatch(.*)*",
     name: "NotFound",
     component: NotFound,
+    meta: { transition: 'fade' },
   },
 ];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  linkActiveClass: 'active-link',
+  linkExactActiveClass: 'exact-active-link',
   scrollBehavior(to) {
     if (to) return { top: 0, behavior: "smooth" };
   },

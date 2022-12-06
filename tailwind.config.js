@@ -33,14 +33,6 @@ module.exports = {
       theme: ["Work Sans", "Metropolis Regular", "Source Code Pro"],
       theme_bold: ["Work Sans Bold", "Metropolis Bold", "Source Code Pro"],
     },
-    screens: {
-      sm: { "max": "767px"},
-      md: "768px",
-      slg: "978px",
-      lg: "1024px",
-      xl: "1280px",
-      "2xl": "1536px",
-    },
   },
   plugins: [],
 };
