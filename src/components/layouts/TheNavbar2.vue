@@ -16,7 +16,7 @@
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-              <router-link v-for="item in navigation" :key="item.name" :to="item.href" class="text-gray-300 hover:bg-gray-700 hover:text-white mx-3 my-2 rounded-md text-sm font-medium">{{ item.name }}</router-link>
+              <router-link v-for="item in navigation" :key="item.name" :to="item.href" class="text-gray-300 hover:bg-gray-700 hover:text-white mx-3 my-2 rounded-md text-sm font-medium" active-class="active-link" exact-active-class="exact-active-link" >{{ item.name }}</router-link>
             </div>
           </div>
         </div>
@@ -39,9 +39,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
 
 
-  { name: 'HOME', href: 'home', current: true },
-  { name: 'ABOUT', href: 'about', current: false },
-  { name: 'PROJECTS', href: 'projects', current: false },
+  { name: 'HOME', href: '/home', current: true },
+  { name: 'ABOUT', href: '/about', current: false },
+  { name: 'PROJECTS', href: '/projects', current: false },
 
 ]
 </script>
