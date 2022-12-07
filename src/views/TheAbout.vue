@@ -5,21 +5,36 @@
       >
         About<span class="text-link_text_hover">.</span>
       </h1>
-    <p class="text-lg md:text-base leading-relaxed slg:text-lg lg:leading-loose ">
+
+<div class="grid grid-cols-5 gap-x-6">
+  <div class="lg:col-span-2 sm:col-span-5">
+    <img src="../assets/imgs/michael_synan.jpg" />
+  </div>
+  <div class="lg:col-span-3 sm:col-span-5">
+    <p class="leading-relaxed text-xl lg:leading-loose ">
       I'm Michael Synan, Project Manager at Kawakami. I'm a long time linux user,
       philosophy nerd, and opensource advocate. I've done data analysis work in Python and R, 
       as well as frontend work with various javascript frameworks. I'm passionate about
       crypto, decentralization and community. 
     </p>
-    <p
-      class="text-lg md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
+    <p class="leading-relaxed lg:leading-loose text-xl pt-4">
       You can find some of my work on my
       <LinkBtn link="https://github.com/letsbecomehuman">Github</LinkBtn> or on my
       <LinkBtn link="/">Portfolio</LinkBtn> page.
     </p>
-    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
-    <div class="flex flex-col gap-5">
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 mt-6" />
+    <div class="flex flex-col gap-1">
 <TheSocials />
     </div>
   </div>

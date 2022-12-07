@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-between items-center">
-    <div class="flex gap-1">
+    <div class="flex gap-x-1">
       <SocialIcon
         title="Github"
         link="https://github.com/letsbecomehuman"
@@ -10,6 +10,11 @@
         title="Twitter"
         link="https://twitter.com/0x_forest"
         icon="ant-design:twitter-outlined"
+      />
+      <SocialIcon
+        title="LinkedIn"
+        link="https://www.linkedin.com/in/hellomichaelsynan/"
+        icon="ant-design:linkedin-filled"
       />
     </div>
     <ActionButton link="mailto:mikesynan@gmail.com">Email Me</ActionButton>

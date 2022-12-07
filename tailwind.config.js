@@ -2,12 +2,16 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   mode: "jit",
   theme: {
+
     extend: {
       backgroundImage: {
         squgily: "url('/src/assets/divider.svg')",
         topbar:
           "linear-gradient(to right, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60))",
       },
+    
+    screens: {
+      'sm': '200px'
     },
     colors: {
       p_text: "#b1b1b1",
@@ -34,5 +38,6 @@ module.exports = {
       theme_bold: ["Work Sans Bold", "Metropolis Bold", "Source Code Pro"],
     },
   },
+},
   plugins: [],
 };
