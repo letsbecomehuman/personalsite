@@ -1,18 +1,24 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: [
+    
+    "./index.html", 
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/**/*.{vue,js,ts,js,jsx,tsx}",
+  
+  ],
+  screens: {
+    'xs': '100px',
+    ...defaultTheme.screens,
+  },
   mode: "jit",
   theme: {
-
     extend: {
       backgroundImage: {
         squgily: "url('/src/assets/divider.svg')",
         topbar:
           "linear-gradient(to right, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60))",
       },
-    
-    screens: {
-      'sm': '200px'
-    },
     colors: {
       p_text: "#b1b1b1",
       head_text: "#eaeaea",

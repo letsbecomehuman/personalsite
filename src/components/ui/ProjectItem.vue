@@ -12,7 +12,7 @@
       <span class=" font-theme_bold text-lg text-head_text slg:text-xl">{{
         name
       }}</span>
-      <p class="text-sm md:text-base">
+      <p class="text-xl md:text-base">
         {{ description }}
       </p>
     </div>

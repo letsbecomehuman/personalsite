@@ -1,16 +1,16 @@
 <script>
-import TheNavbar2 from "./components/layouts/TheNavbar2.vue";
+import TheNavbar3 from "./components/layouts/TheNavbar3.vue";
 import { RouterLink, RouterView } from "vue-router";
 
 export default {
   setup() {},
-  components: { TheNavbar2 },
+  components: { TheNavbar3 },
 };
 </script>
 
 <template>
   <div class="w-full">
-    <TheNavbar2 />
+    <TheNavbar3 />
     <div
       class="max-w-screen-lg px-8 mx-auto pb-24 sm:px-16 slg:px-24"
     >
