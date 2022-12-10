@@ -1,32 +1,49 @@
 <template>
-  <nav
-    class="px-2 py-1 flex justify-between fixed w-full top-0 sm:px-2 lg:py-1 max-h-100 h-auto grow-0 align-top flex-start"
-  >
-    <div class="h-[1px] top-0 absolute left-0 w-full lg:h-1 max-h-100 h-auto grow-0 align-top"></div>
-    <router-link
-      to="/"
-      class="sm:text-head_text font-logo sm:text-lg text-2xl font-normal select-none slg:font-semibold lg:text-2xl tracking-wider sm:border-r-2 sm:pr-2 sm:border-sky-500"
-      >Michael Synan</router-link
-    >
-    <div class="flex sm:text-base text-sm items-center gap-1 sm:gap-2 align-top sm:mx-1 grow-0">
-      <router-link
-        class="sm:text-sm md:text-base hover:border-b-2 font-theme_bold px-0 py-0 pb-0 sm:mx-1 mx-3 transition-all sm:px-0 sm:py-0 sm:mx-1 uppercase"
-        to="/"
-      >
-        Home
-      </router-link>
-      <router-link
-        class="sm:text-sm md:text-base hover:border-b-2 font-theme_bold px-0 py-0 pb-0 sm:mx-1 mx-3 transition-all sm:px-0 sm:py-0 sm:mx-1 uppercase"
-        to="/about"
-      >
-        About
-      </router-link>
-      <router-link
-        class="sm:text-sm md:text-base hover:border-b-2 font-theme_bold px-0 py-0 pb-0 sm:mx-1 mx-3 transition-all sm:px0 sm:py-0 sm:mx-1 uppercase"
-        to="/projects"
-      >
-        Projects
-      </router-link>
-    </div>
-  </nav>
-</template>
+    <Disclosure as="nav" v-slot="{ open }">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 z-10">
+        <div class="relative flex h-16 items-center justify-between">
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <!-- Mobile menu button-->
+            <DisclosureButton class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+              <span class="sr-only">Open main menu</span>
+              <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
+              <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
+            </DisclosureButton>
+          </div>
+          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div class="flex flex-shrink-0 items-center">
+                <span>MICHAEL SYNAN</span>
+            </div>
+            <div class="hidden sm:ml-6 sm:block">
+              <div class="flex space-x-4">
+                <router-link v-for="item in navigation" :key="item.name" :to="item.href" class="text-gray-300 hover:text-white !ml-3 !mr-3 my-2 rounded-md text-sm font-medium" active-class="active-link" exact-active-class="exact-active-link" >{{ item.name }}</router-link>
+              </div>
+            </div>
+          </div>
+          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+
+  
+          </div>
+        </div>
+      </div>
+  
+      <DisclosurePanel class="sm:hidden">
+        <div class="space-y-1 px-2 pt-2 pb-3">
+          <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium z-9" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
+        </div>
+      </DisclosurePanel>
+    </Disclosure>
+  </template>
+  
+  <script setup>
+  import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+  import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+  
+  const navigation = [
+
+  { name: 'HOME', href: '/home', current: true },
+  { name: 'ABOUT', href: '/about', current: false },
+  { name: 'PROJECTS', href: '/projects', current: false },
+
+  ]
+  </script>

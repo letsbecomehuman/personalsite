@@ -7,12 +7,12 @@ module.exports = {
     "./src/**/**/*.{vue,js,ts,js,jsx,tsx}",
   
   ],
-  screens: {
-    'xs': '100px',
-    ...defaultTheme.screens,
-  },
   mode: "jit",
   theme: {
+    screens: {
+      'xs': '300px',
+      ...defaultTheme.screens,
+    },
     extend: {
       backgroundImage: {
         squgily: "url('/src/assets/divider.svg')",

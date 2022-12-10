@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-col gap-16 mb-16 tracking-wide">
+  <div class="flex flex-col gap-16 mb-16 tracking-wide hero fix">
     <TheHero />
     <FeaturedProjects />
   </div>

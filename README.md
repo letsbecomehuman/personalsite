@@ -3,7 +3,7 @@
 This is the source code to my personal page on the internet. You can give it a look at the link below!
 
 ## View Site
-Check it out: COMING SOON
+Check it out: https://michaelsynan.com
 
 ## Technologies Used
 - Vue.js

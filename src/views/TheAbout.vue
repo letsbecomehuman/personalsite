@@ -24,7 +24,7 @@
     </p>
   </div>
 </div>
-    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-8" />
+    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-8 z-1" />
     <div class="flex flex-col gap-1">
 <TheSocials />
     </div>
