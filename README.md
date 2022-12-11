@@ -11,5 +11,5 @@ Check it out: https://michaelsynan.com
 
 ## Screenshot
 
-![Hero](https://github.com/letsbecomehuman/portfolio-update/blob/main/src/assets/preview.png?raw=true)
+![Hero](https://raw.githubusercontent.com/letsbecomehuman/personalsite/main/src/assets/preview.png)
 
