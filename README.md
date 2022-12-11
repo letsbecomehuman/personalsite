@@ -1,6 +1,6 @@
 
-# My Personal Portfolio
-This is the source code to my personal page on the internet. You can give it a look at the link below!
+# Personal Website
+Source code for my personal site and portfolio. 
 
 ## View Site
 Check it out: https://michaelsynan.com
